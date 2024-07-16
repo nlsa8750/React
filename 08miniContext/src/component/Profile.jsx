@@ -1,6 +1,7 @@
 import React, {useContext, useState} from 'react';
 import UserContext from '../context/UserContext';
 
+// to receive the data from the login portion
 function Profile () {
 
     const {user} = useContext(UserContext);
